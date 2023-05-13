@@ -224,7 +224,6 @@ hr {
     }
 
     .head-resume {
-        background-color: red;
         width: 100%;
         padding: 0.2rem;
     }
@@ -271,17 +270,19 @@ hr {
     .progit, .prohost, .prodescpr {
         font-size: 0.8rem;
     }
-    .skill-resume{
+
+    .skill-resume {
         min-height: fit-content;
     }
-        .ind-pro-skill {
-            font-size: 1.2rem;
-            font-weight: bold;
-            height: 3vh;
-            margin: 0.2rem 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0.1rem 0.5rem;
-        }
+
+    .ind-pro-skill {
+        font-size: 1.2rem;
+        font-weight: bold;
+        height: 3vh;
+        margin: 0.2rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.1rem 0.5rem;
+    }
 }
