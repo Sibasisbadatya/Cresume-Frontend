@@ -887,3 +887,15 @@ html {
         margin-top: 1rem;
     }
 }
+
+@media screen and (max-width:450px) {
+    .ctcb>b {
+        font-size: 1.5rem;
+        height: 90%;
+        width: 48%;
+        font-size: 2rem;
+        border-radius: 1rem;
+        margin-left: 10rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+    }
+}

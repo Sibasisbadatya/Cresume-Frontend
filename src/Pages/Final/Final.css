@@ -60,7 +60,7 @@
 }
 
 .body-resume {
-    height: 75%;
+    min-height: 75%;
     width: 100%;
     margin: auto;
     position: relative;
@@ -182,7 +182,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     height: 6vh;
-    background-color: brown;
     min-width: fit-content;
     margin: 1rem;
     display: flex;
@@ -195,6 +194,7 @@
 .proheading {
     font-size: 2.5rem;
     font-family: 'EB Garamond', serif;
+    text-underline-position: under;
 }
 
 .linkpro {
@@ -216,4 +216,72 @@ hr {
     position: absolute;
     top: 3rem;
     right: 5rem;
+}
+
+@media screen and (max-width:500px) {
+    .final-resume {
+        padding: 0.2rem;
+    }
+
+    .head-resume {
+        background-color: red;
+        width: 100%;
+        padding: 0.2rem;
+    }
+
+    .printbtn {
+        position: absolute;
+        top: 95vh;
+        right: 0.5rem;
+        height: 5vh;
+        width: 20vw;
+        font-size: 1.5rem;
+    }
+
+    .body-resume {
+        padding: 0rem 1rem;
+    }
+
+    .proheading {
+        font-size: 1.2rem;
+    }
+
+    .ind-edu-res {
+        height: 5vh;
+        margin-bottom: 0rem;
+    }
+
+    .eddeg, .edgrade {
+        font-size: 1.2rem;
+    }
+
+    .edname, .edloc {
+        font-size: 0.8rem;
+    }
+
+    .ind-pro-res {
+        min-height: fit-content;
+        margin-bottom: 0rem;
+    }
+
+    .profname {
+        font-size: 1.2rem;
+    }
+
+    .progit, .prohost, .prodescpr {
+        font-size: 0.8rem;
+    }
+    .skill-resume{
+        min-height: fit-content;
+    }
+        .ind-pro-skill {
+            font-size: 1.2rem;
+            font-weight: bold;
+            height: 3vh;
+            margin: 0.2rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.1rem 0.5rem;
+        }
 }

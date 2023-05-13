@@ -59,8 +59,7 @@ const Final = () => {
                 </div>
                 <hr />
                 <div className='body-resume'>
-                    <b className='proheading'>Education Details</b>
-                    <hr />
+                    <b className='proheading'><u>Education Details</u></b>
                     <div className='edu-resume'>
                         {
                             educationData.map((elem) => {
@@ -77,8 +76,7 @@ const Final = () => {
                             })
                         }
                     </div>
-                    <b className='proheading'>Personal Projects</b>
-                    <hr />
+                    <b className='proheading'><u>Personal Projects</u></b>
                     <div className='project-resume' >
                         {
                             projectData.map((elem, key) => {
@@ -95,15 +93,14 @@ const Final = () => {
                             })
                         }
                     </div>
-                    <b className='proheading'>Skills</b>
-                    <hr />
+                    <b className='proheading'><u>Skills</u></b>
                     <div className='skill-resume' >
                         {
-                            skillData.map((elem) => {
+                            skillData.map((elem,key) => {
                                 return (
                                     <>
                                         <div className='ind-pro-skill'>
-                                            {elem.skill}
+                                           {key+1+"."} {elem.skill}
                                         </div>
                                     </>
                                 )
