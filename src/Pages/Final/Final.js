@@ -31,7 +31,7 @@ const Final = () => {
         console.log(data1.personal[0]);
         setResumeData(data1);
         setEducationData(data1.edu);
-        setPersonalData(data1.personal[0]);
+        setPersonalData(data1.personal[data1.personal.length - 1]);
         setSkillData(data1.skills);
         setProjectData(data1.project);
         console.log("seen");

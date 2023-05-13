@@ -41,6 +41,9 @@ const Personal = () => {
             console.log(data);
             window.location.href = "./Education";
         }
+        else {
+            alert("Plzzz fill all the details");
+        }
     }
     return (
         <>
@@ -49,6 +52,7 @@ const Personal = () => {
                     <span><b>Add Your Personal Data </b></span>
                     <div className='ctcb'>
                         <b>{userID}</b>
+                        {/* <b>1bhdfd678hdt8hdt</b> */}
                         <button className='buttonc' onClick={handlecopy}>Copy!</button>
                     </div>
                 </div>

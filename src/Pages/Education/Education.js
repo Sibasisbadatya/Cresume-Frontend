@@ -172,7 +172,10 @@ const Education = () => {
                 <div className='ctcb'>
                     <b>{userID}</b>
                     <button className='buttonc' onClick={handlecopy}>Copy!</button>
-                    <Button onClick={() => { setShowNote(true) }} className="addnotebtn"> <AddCircleRoundedIcon className="addnoteicon" sx={{ fontSize: "70px" }} /></Button>
+                    <Button onClick={() => {
+                        console.log("clicked add");
+                        setShowNote(true)
+                    }} className="addnotebtn"> <AddCircleRoundedIcon className="addnoteicon" sx={{ fontSize: "70px" }} /></Button>
                 </div>
 
                 <br /><br />

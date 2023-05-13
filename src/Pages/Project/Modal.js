@@ -31,7 +31,7 @@ const Modal = (props) => {
                 </div>
                 {/* pname={pname} pdescr={pdescr} pgithublink={pgithublink} phostlink={phostlink} */}
                 <div className='save-back-btn'>
-                    <Button style={{
+                    <Button className='svedbtn' style={{
                         backgroundColor: "#3742fa",
                         color: "#FFFFFF",
                         fontSize: "18px",
@@ -39,7 +39,7 @@ const Modal = (props) => {
                     }}
                         // className='savebtn'
                         onClick={props.addlist}>Save &nbsp;<SaveIcon /></Button>
-                    <Button style={{
+                    <Button className='svedbtn' style={{
                         backgroundColor: "#3742fa",
                         color: "#FFFFFF",
                         fontSize: "18px",

@@ -50,7 +50,7 @@ const Start = () => {
             return alert("Please choose any one option");
         }
         const { resumeid } = user;
-        const res = await fetch("hhttps://cresume-backend.onrender.com/checkresumename", {
+        const res = await fetch("https://cresume-backend.onrender.com/checkresumename", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

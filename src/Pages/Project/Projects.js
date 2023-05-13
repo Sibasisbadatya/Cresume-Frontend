@@ -180,7 +180,7 @@ const Project = () => {
                                         <li className='pfname'><span>{elem.pname}</span></li>
                                         <li className='po'><a href={elem.pgithublink}><GitHubIcon />{elem.pgithublink}</a></li>
                                         <li className='po'><a href={elem.phostlink}><LanguageIcon />{elem.phostlink}</a></li>
-                                        <li className='lip'><span>--{elem.pdescr}</span></li>
+                                        <li className='lip'><span>{elem.pdescr}</span></li>
                                     </div>
                                     <div className="delandedit" key={elem.id}><DeleteIcon sx={{ fontSize: "25px" }} onClick={() => { deleteItem(elem.id) }} style={{ cursor: "pointer", color: "red" }} /><EditIcon sx={{ fontSize: "25px" }} onClick={() => { UpdateItem(elem.id) }} style={{ cursor: "pointer", color: "#1B1464" }} /></div>
                                 </div>
